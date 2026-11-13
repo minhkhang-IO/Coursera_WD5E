@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal Portfolio & Responsive Web Showcase built with semantic HTML5 and modern CSS3."
+    />
+    <title>Minh Khang | Software & AI Engineering Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Skip to Main Content link for Keyboard Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#" class="brand-logo">MK<span>.dev</span></a>
+        <nav aria-label="Primary Navigation">
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#extras">CSS Extras</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container hero-content">
+          <p class="hero-badge">Software Engineering & AI</p>
+          <h1>Bridging Low-Level System Efficiency with Modern AI</h1>
+          <p class="hero-subtitle">
+            A responsive, W3C-compliant showcase demonstrating semantic
+            architecture, fluid layouts, and accessible design principles.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Explore Projects</a>
+            <a href="#extras" class="btn btn-outline">View 4 CSS Extras</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section">
+        <div class="container about-grid">
+          <div class="about-text">
+            <h2>Engineering Philosophy</h2>
+            <p>
+              Clean architecture begins with semantic markup and predictable
+              styling. This site follows a
+              <strong>Mobile-First</strong> approach, ensuring optimal
+              performance across smartphones, tablets, and wide desktop
+              monitors.
+            </p>
+            <ul class="feature-list">
+              <li>100% Validated Semantic HTML5 & CSS3</li>
+              <li>Zero external JavaScript dependencies</li>
+              <li>WCAG AA compliant color contrast ratios</li>
+            </ul>
+          </div>
+          <figure class="about-card">
+            <div class="code-preview" aria-label="CSS Architecture Snippet">
+              <pre><code>:root {
+  --primary: #2563eb;
+  --surface: #ffffff;
+  --radius: 12px;
+}</code></pre>
+            </div>
+            <figcaption>
+              Modular design tokens powering consistent UI scaling.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Responsive Projects Grid -->
+      <section id="projects" class="section section-alt">
+        <div class="container">
+          <div class="section-header">
+            <h2>Featured Engineering Work</h2>
+            <p>
+              Adaptive CSS Grid layout responding automatically to viewport
+              breakpoints.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="card">
+              <div class="card-tag">Systems & C</div>
+              <h3>ElectroStore Manager</h3>
+              <p>
+                Modular console inventory system engineered with dynamic memory
+                allocation and secure binary File I/O.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card-tag">AI & NLP</div>
+              <h3>FoodWhatever Agent</h3>
+              <p>
+                Agentic recommendation engine powered by FastAPI, LangChain, and
+                vector database retrieval.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card-tag">Parallel Computing</div>
+              <h3>SIMT vs MIMD Benchmarks</h3>
+              <p>
+                Hardware optimization research analyzing GPU memory coalescing
+                and thread divergence workloads.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4 Extras Showcase Section -->
+      <section id="extras" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Four Implemented "Extras"</h2>
+            <p>
+              Advanced CSS3 capabilities integrated into this stylesheet for
+              accessibility and user preference adaptation.
+            </p>
+          </div>
+
+          <div class="extras-grid">
+            <article class="extra-item">
+              <h3>1. Auto Dark Mode</h3>
+              <p>
+                Uses <code>@media (prefers-color-scheme: dark)</code> paired
+                with CSS Custom Properties to adapt colors automatically.
+              </p>
+            </article>
+
+            <article class="extra-item">
+              <h3>2. Fluid Typography</h3>
+              <p>
+                Implements mathematical <code>clamp()</code> functions so
+                headings scale smoothly without abrupt breakpoint jumps.
+              </p>
+            </article>
+
+            <article class="extra-item">
+              <h3>3. Reduced Motion Support</h3>
+              <p>
+                Respects <code>@media (prefers-reduced-motion: reduce)</code> by
+                disabling hover transitions for vestibular comfort.
+              </p>
+            </article>
+
+            <article class="extra-item">
+              <h3>4. Print-Optimized Layout</h3>
+              <p>
+                Includes a dedicated <code>@media print</code> rule that strips
+                navigation bars and formats the page cleanly for PDF export.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Minh Khang. Built with Semantic HTML5 & Responsive CSS3.</p>
+        <a href="#main-content" class="back-to-top">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
